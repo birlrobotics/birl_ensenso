@@ -2,7 +2,7 @@ cmake_minimum_required(VERSION 2.8.3)
 project(ensenso)
 
 #add_definitions(-std=c++11)
-catkin_python_setup()
+#catkin_python_setup()
 find_package(catkin REQUIRED COMPONENTS
   camera_info_manager
   cmake_modules

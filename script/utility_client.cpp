@@ -6,7 +6,7 @@
 #include <sensor_msgs/image_encodings.h>
 #include <pcl_conversions/pcl_conversions.h>
 #include <image_transport/image_transport.h>
-#include <cv_bridge3/cv_bridge.h>
+#include <cv_bridge/cv_bridge.h>
 //ros service
 #include <ensenso/CaptureSinglePointCloud.h>
 #include <ensenso/ConfigureStreaming.h>
