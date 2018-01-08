@@ -80,7 +80,7 @@ add_definitions(${PCL_DEFINITIONS})
 
 # Libraries
 add_library(ensenso_grabber src/ensenso_grabber.cpp)
-target_link_libraries(ensenso_grabber ${PCL_LIBRARIES} ${catkin_LIBRARIES} ${ENSENSO_LIBRARIES} ${OpenCV_LIBRARIES})
+target_link_libraries(ensenso_grabber vtkFiltering ${PCL_LIBRARIES} ${catkin_LIBRARIES} ${ENSENSO_LIBRARIES} ${OpenCV_LIBRARIES})
 
 #add_library(ensenso_ros_driver src/ensenso_ros_driver.cpp)
 #target_link_libraries(ensenso_ros_driver ${PCL_LIBRARIES} ${catkin_LIBRARIES})
